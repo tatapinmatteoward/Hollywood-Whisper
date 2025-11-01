@@ -1,0 +1,229 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Hollywood Whisper - Insider Secrets from the Stars" description="Dive into the glamorous world of Hollywood with exclusive insider secrets, celebrity gossip, and behind-the-scenes stories from your favorite stars.">
+  <!-- Hero Section with Cinematic Gradient -->
+  <section class="relative overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-r from-[#4b001d] via-[#8b003d] to-[#4b001d] opacity-90"></div>
+    <div class="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiPjxkZWZzPjxwYXR0ZXJuIGlkPSJwYXR0ZXJuIiB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHBhdHRlcm5Vbml0cz0idXNlclNwYWNlT25Vc2UiIHBhdHRlcm5UcmFuc2Zvcm09InJvdGF0ZSg0NSkiPjxjaXJjbGUgY3g9IjIwIiBjeT0iMjAiIHI9IjEiIGZpbGw9IiNmZmYiIGZpbGwtb3BhY2l0eT0iMC4wNSIvPjwvcGF0dGVybj48L2RlZnM+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNwYXR0ZXJuKSIvPjwvc3ZnPg==')] opacity-20"></div>
+    
+    <div class="relative container mx-auto px-4 py-32 md:py-48 flex flex-col items-center text-center">
+      <div class="animate-fade-in-down">
+        <h1 class="text-5xl md:text-7xl font-serif font-bold text-white mb-6 tracking-wide">
+          Hollywood Whisper
+        </h1>
+        <p class="text-xl md:text-2xl text-[#ff6f61] font-serif italic mb-10 max-w-3xl mx-auto">
+          Insider Secrets from the Stars
+        </p>
+      </div>
+      
+      <div class="animate-fade-in-up">
+        <p class="text-lg text-gray-200 max-w-2xl mx-auto leading-relaxed mb-12">
+          Dive into the glamorous world of Hollywood with exclusive insider secrets, 
+          celebrity gossip, and behind-the-scenes stories from your favorite stars.
+        </p>
+        
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <button class="bg-[#ff6f61] hover:bg-[#e55a4d] text-white font-bold py-3 px-8 rounded-full text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
+            Explore the Buzz
+          </button>
+          <button class="bg-transparent border-2 border-white text-white hover:bg-white hover:text-[#4b001d] font-bold py-3 px-8 rounded-full text-lg transition-all duration-300">
+            Latest Stories
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Latest Buzz Section -->
+  <section class="py-20 bg-gradient-to-b from-[#4b001d] to-[#2c0011]">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-serif font-bold text-white mb-4">Latest Buzz</h2>
+        <div class="w-24 h-1 bg-[#ff6f61] mx-auto"></div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Buzz Card 1 -->
+        <div class="bg-gradient-to-br from-[#8b003d] to-[#4b001d] rounded-2xl overflow-hidden shadow-xl transform transition-all duration-300 hover:scale-105 hover:shadow-2xl border border-[#ff6f61] border-opacity-30">
+          <div class="p-6">
+            <div class="flex items-center mb-4">
+              <div class="w-12 h-12 rounded-full bg-[#ff6f61] flex items-center justify-center mr-4">
+                <i class="fas fa-heart text-white text-xl"></i>
+              </div>
+              <h3 class="text-xl font-serif font-bold text-white">Star's Secret Affair Exposed</h3>
+            </div>
+            <p class="text-gray-200 mb-4">
+              Rumors swirl around A-list couple's hidden getaway. Is love in the air or trouble brewing?
+            </p>
+            <div class="flex justify-between items-center">
+              <span class="text-[#ff6f61] font-medium">Exclusive</span>
+              <span class="text-gray-400 text-sm">2 hours ago</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Buzz Card 2 -->
+        <div class="bg-gradient-to-br from-[#8b003d] to-[#4b001d] rounded-2xl overflow-hidden shadow-xl transform transition-all duration-300 hover:scale-105 hover:shadow-2xl border border-[#ff6f61] border-opacity-30">
+          <div class="p-6">
+            <div class="flex items-center mb-4">
+              <div class="w-12 h-12 rounded-full bg-[#ff6f61] flex items-center justify-center mr-4">
+                <i class="fas fa-film text-white text-xl"></i>
+              </div>
+              <h3 class="text-xl font-serif font-bold text-white">Behind-the-Scenes on Blockbuster Set</h3>
+            </div>
+            <p class="text-gray-200 mb-4">
+              Leaked photos reveal intense filming moments from the upcoming superhero flick.
+            </p>
+            <div class="flex justify-between items-center">
+              <span class="text-[#ff6f61] font-medium">Exclusive</span>
+              <span class="text-gray-400 text-sm">5 hours ago</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Buzz Card 3 -->
+        <div class="bg-gradient-to-br from-[#8b003d] to-[#4b001d] rounded-2xl overflow-hidden shadow-xl transform transition-all duration-300 hover:scale-105 hover:shadow-2xl border border-[#ff6f61] border-opacity-30">
+          <div class="p-6">
+            <div class="flex items-center mb-4">
+              <div class="w-12 h-12 rounded-full bg-[#ff6f61] flex items-center justify-center mr-4">
+                <i class="fas fa-trophy text-white text-xl"></i>
+              </div>
+              <h3 class="text-xl font-serif font-bold text-white">Award Season Predictions</h3>
+            </div>
+            <p class="text-gray-200 mb-4">
+              Who will shine at the Oscars? Our experts weigh in on the frontrunners.
+            </p>
+            <div class="flex justify-between items-center">
+              <span class="text-[#ff6f61] font-medium">Analysis</span>
+              <span class="text-gray-400 text-sm">1 day ago</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Section -->
+  <section class="py-20 bg-[#2c0011]">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-serif font-bold text-white mb-4">Why Choose Hollywood Whisper?</h2>
+        <div class="w-24 h-1 bg-[#ff6f61] mx-auto mb-6"></div>
+        <p class="text-gray-300 max-w-3xl mx-auto text-lg">
+          We deliver the most exclusive content straight from the heart of Tinseltown
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <!-- Feature 1 -->
+        <div class="bg-gradient-to-br from-[#4b001d] to-[#8b003d] rounded-2xl p-8 text-center transform transition-all duration-300 hover:scale-105 border border-[#ff6f61] border-opacity-20">
+          <div class="w-16 h-16 bg-[#ff6f61] rounded-full flex items-center justify-center mx-auto mb-6">
+            <i class="fas fa-user-friends text-white text-2xl"></i>
+          </div>
+          <h3 class="text-xl font-serif font-bold text-white mb-4">Exclusive Interviews</h3>
+          <p class="text-gray-300">
+            Get access to rare conversations with A-list celebrities and industry insiders
+          </p>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="bg-gradient-to-br from-[#4b001d] to-[#8b003d] rounded-2xl p-8 text-center transform transition-all duration-300 hover:scale-105 border border-[#ff6f61] border-opacity-20">
+          <div class="w-16 h-16 bg-[#ff6f61] rounded-full flex items-center justify-center mx-auto mb-6">
+            <i class="fas fa-handshake text-white text-2xl"></i>
+          </div>
+          <h3 class="text-xl font-serif font-bold text-white mb-4">Authentic Stories</h3>
+          <p class="text-gray-300">
+            We verify every story to ensure you get the real, unfiltered truth
+          </p>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="bg-gradient-to-br from-[#4b001d] to-[#8b003d] rounded-2xl p-8 text-center transform transition-all duration-300 hover:scale-105 border border-[#ff6f61] border-opacity-20">
+          <div class="w-16 h-16 bg-[#ff6f61] rounded-full flex items-center justify-center mx-auto mb-6">
+            <i class="fas fa-gavel text-white text-2xl"></i>
+          </div>
+          <h3 class="text-xl font-serif font-bold text-white mb-4">Exclusive Access</h3>
+          <p class="text-gray-300">
+            Be the first to know about premieres, private events, and industry news
+          </p>
+        </div>
+
+        <!-- Feature 4 -->
+        <div class="bg-gradient-to-br from-[#4b001d] to-[#8b003d] rounded-2xl p-8 text-center transform transition-all duration-300 hover:scale-105 border border-[#ff6f61] border-opacity-20">
+          <div class="w-16 h-16 bg-[#ff6f61] rounded-full flex items-center justify-center mx-auto mb-6">
+            <i class="fas fa-star text-white text-2xl"></i>
+          </div>
+          <h3 class="text-xl font-serif font-bold text-white mb-4">Industry Insider</h3>
+          <p class="text-gray-300">
+            Our team has connections that give you access to behind-the-scenes content
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-20 bg-gradient-to-r from-[#4b001d] to-[#8b003d]">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-4xl md:text-5xl font-serif font-bold text-white mb-6">
+        Join the Hollywood Insider Experience
+      </h2>
+      <p class="text-xl text-gray-200 max-w-3xl mx-auto mb-10">
+        Subscribe to our newsletter and never miss a beat in the glamorous world of Tinseltown
+      </p>
+      
+      <div class="max-w-2xl mx-auto">
+        <form class="flex flex-col sm:flex-row gap-4">
+          <input 
+            type="email" 
+            placeholder="Your email address" 
+            class="flex-grow px-6 py-4 rounded-full text-[#4b001d] focus:outline-none focus:ring-2 focus:ring-[#ff6f61]"
+          >
+          <button 
+            type="submit"
+            class="bg-[#ff6f61] hover:bg-[#e55a4d] text-white font-bold py-4 px-8 rounded-full text-lg transition-all duration-300 transform hover:scale-105"
+          >
+            Subscribe Now
+          </button>
+        </form>
+        <p class="text-gray-400 text-sm mt-4">
+          We respect your privacy. Unsubscribe at any time.
+        </p>
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  @keyframes fade-in-down {
+    0% {
+      opacity: 0;
+      transform: translateY(-30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fade-in-up {
+    0% {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .animate-fade-in-down {
+    animation: fade-in-down 0.8s ease-out forwards;
+  }
+  
+  .animate-fade-in-up {
+    animation: fade-in-up 0.8s ease-out forwards;
+  }
+</style>

@@ -1,0 +1,170 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Stars" description="Dive into the glamorous world of Hollywood's brightest stars with exclusive insider secrets, behind-the-scenes stories, and captivating profiles that reveal the magic and mystery of Tinseltown.">
+  <div class="min-h-screen bg-gradient-to-b from-[#4b001d] to-[#1a000a] text-white">
+    {/* Hero Section */}
+    <div class="relative overflow-hidden">
+      <div class="absolute inset-0 bg-gradient-to-r from-[#4b001d] via-[#2c0011] to-[#4b001d] opacity-90"></div>
+      <div class="relative container mx-auto px-4 py-32 md:py-48">
+        <div class="max-w-3xl">
+          <div class="flex items-center mb-6">
+            <div class="w-16 h-16 rounded-full bg-[#ff6f61] flex items-center justify-center mr-4">
+              <i class="fas fa-star text-2xl"></i>
+            </div>
+            <h1 class="text-5xl md:text-7xl font-serif font-bold tracking-tight">Stars</h1>
+          </div>
+          <h2 class="text-xl md:text-2xl font-serif text-[#ff6f61] mb-6">Insider Secrets from the Stars</h2>
+          <p class="text-lg md:text-xl font-serif max-w-2xl leading-relaxed">
+            Dive into the glamorous world of Hollywood's brightest stars with exclusive insider secrets, 
+            behind-the-scenes stories, and captivating profiles that reveal the magic and mystery of Tinseltown.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    {/* Featured Stars Section */}
+    <div class="py-20 bg-gradient-to-b from-[#1a000a] to-[#0d0006]">
+      <div class="container mx-auto px-4">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl md:text-4xl font-serif font-bold mb-4">Featured Stars Spotlight</h2>
+          <div class="w-24 h-1 bg-[#ff6f61] mx-auto"></div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+          {/* Emma Stone Card */}
+          <div class="bg-gradient-to-br from-[#2c0011] to-[#1a000a] rounded-2xl overflow-hidden shadow-2xl border border-[#ff6f61]/20 transform transition-all duration-300 hover:scale-105 hover:shadow-[0_0_20px_rgba(255,111,97,0.5)]">
+            <div class="p-6">
+              <div class="flex items-center mb-4">
+                <div class="w-12 h-12 rounded-full bg-[#ff6f61] flex items-center justify-center mr-3">
+                  <i class="fas fa-star"></i>
+                </div>
+                <h3 class="text-xl font-serif font-bold">Emma Stone</h3>
+              </div>
+              <p class="text-[#ff6f61] mb-4 text-sm">La La Land darling</p>
+              <p class="font-serif mb-6 leading-relaxed">
+                The <em>La La Land</em> darling whose infectious charm and Oscar-winning talent continue to enchant audiences worldwide.
+              </p>
+              <div class="bg-[#4b001d]/50 p-4 rounded-lg border border-[#ff6f61]/20">
+                <p class="text-sm italic">
+                  <i class="fas fa-lightbulb text-[#ff6f61] mr-2"></i>
+                  <span class="font-serif">Insider tip:</span> She's rumored to be prepping for a secret musical comeback!
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Tom Cruise Card */}
+          <div class="bg-gradient-to-br from-[#2c0011] to-[#1a000a] rounded-2xl overflow-hidden shadow-2xl border border-[#ff6f61]/20 transform transition-all duration-300 hover:scale-105 hover:shadow-[0_0_20px_rgba(255,111,97,0.5)]">
+            <div class="p-6">
+              <div class="flex items-center mb-4">
+                <div class="w-12 h-12 rounded-full bg-[#ff6f61] flex items-center justify-center mr-3">
+                  <i class="fas fa-star"></i>
+                </div>
+                <h3 class="text-xl font-serif font-bold">Tom Cruise</h3>
+              </div>
+              <p class="text-[#ff6f61] mb-4 text-sm">Daredevil extraordinaire</p>
+              <p class="font-serif mb-6 leading-relaxed">
+                Action hero eternal. From <em>Top Gun</em> thrills to off-screen adventures, his high-octane life keeps us guessing.
+              </p>
+              <div class="bg-[#4b001d]/50 p-4 rounded-lg border border-[#ff6f61]/20">
+                <p class="text-sm italic">
+                  <i class="fas fa-exclamation-triangle text-[#ff6f61] mr-2"></i>
+                  <span class="font-serif">Bold fact:</span> He's reportedly training for a new stunt film in Marrakech!
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Additional Star Card */}
+          <div class="bg-gradient-to-br from-[#2c0011] to-[#1a000a] rounded-2xl overflow-hidden shadow-2xl border border-[#ff6f61]/20 transform transition-all duration-300 hover:scale-105 hover:shadow-[0_0_20px_rgba(255,111,97,0.5)]">
+            <div class="p-6">
+              <div class="flex items-center mb-4">
+                <div class="w-12 h-12 rounded-full bg-[#ff6f61] flex items-center justify-center mr-3">
+                  <i class="fas fa-star"></i>
+                </div>
+                <h3 class="text-xl font-serif font-bold">Scarlett Johansson</h3>
+              </div>
+              <p class="text-[#ff6f61] mb-4 text-sm">Theatrical icon</p>
+              <p class="font-serif mb-6 leading-relaxed">
+                From Marvel to indie gems, her versatility continues to charm audiences worldwide with her nuanced performances.
+              </p>
+              <div class="bg-[#4b001d]/50 p-4 rounded-lg border border-[#ff6f61]/20">
+                <p class="text-sm italic">
+                  <i class="fas fa-magic text-[#ff6f61] mr-2"></i>
+                  <span class="font-serif">Exclusive:</span> She's been secretly mentoring young actors in Los Angeles!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {/* Content Section */}
+    <div class="py-20 bg-gradient-to-b from-[#0d0006] to-[#000000]">
+      <div class="container mx-auto px-4">
+        <div class="max-w-4xl mx-auto">
+          <h2 class="text-3xl md:text-4xl font-serif font-bold mb-8 text-center">Hollywood's Shining Stars</h2>
+          
+          <div class="bg-gradient-to-r from-[#2c0011] to-[#1a000a] rounded-2xl p-8 md:p-12 border border-[#ff6f61]/20 shadow-xl">
+            <p class="text-lg md:text-xl font-serif leading-relaxed mb-6">
+              Welcome to the heart of <em>Hollywood Whisper</em>, where the spotlight never dims on the icons who light up the silver screen. 
+              Our <strong>Stars</strong> page is your VIP pass to the lives, loves, and legends of cinema's elite.
+            </p>
+            
+            <div class="flex items-start mb-8">
+              <div class="w-12 h-12 rounded-full bg-[#ff6f61] flex items-center justify-center mr-4 flex-shrink-0">
+                <i class="fas fa-award text-xl"></i>
+              </div>
+              <p class="text-lg font-serif leading-relaxed">
+                From timeless trailblazers to today's rising sensations, uncover the whispers that shape their stardom. 
+                Our exclusive interviews and behind-the-scenes access bring you closer than ever to the magic that makes Hollywood shine.
+              </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-12">
+              <div class="bg-[#4b001d]/50 p-6 rounded-lg border border-[#ff6f61]/10">
+                <h3 class="text-xl font-serif font-bold mb-3 text-[#ff6f61]">Exclusive Access</h3>
+                <p class="font-serif">Behind-the-scenes stories from the set of major productions.</p>
+              </div>
+              <div class="bg-[#4b001d]/50 p-6 rounded-lg border border-[#ff6f61]/10">
+                <h3 class="text-xl font-serif font-bold mb-3 text-[#ff6f61]">Tinseltown Secrets</h3>
+                <p class="font-serif">Uncovered anecdotes that reveal the real stories behind the stars.</p>
+              </div>
+              <div class="bg-[#4b001d]/50 p-6 rounded-lg border border-[#ff6f61]/10">
+                <h3 class="text-xl font-serif font-bold mb-3 text-[#ff6f61]">Cultural Impact</h3>
+                <p class="font-serif">How stars influence fashion, music, and global culture.</p>
+              </div>
+              <div class="bg-[#4b001d]/50 p-6 rounded-lg border border-[#ff6f61]/10">
+                <h3 class="text-xl font-serif font-bold mb-3 text-[#ff6f61]">Current Trends</h3>
+                <p class="font-serif">The latest buzz and developments in Hollywood's brightest careers.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {/* CTA Section */}
+    <div class="py-24 bg-gradient-to-r from-[#4b001d] to-[#2c0011]">
+      <div class="container mx-auto px-4 text-center">
+        <h2 class="text-3xl md:text-4xl font-serif font-bold mb-6">Join the Hollywood Whisper Community</h2>
+        <p class="text-xl max-w-2xl mx-auto mb-10">
+          Subscribe to our insider newsletter and get exclusive content delivered straight to your inbox.
+        </p>
+        <div class="max-w-md mx-auto flex flex-col sm:flex-row gap-4">
+          <input 
+            type="email" 
+            placeholder="Your email address" 
+            class="flex-grow px-6 py-4 rounded-full bg-[#1a000a] border border-[#ff6f61]/30 focus:outline-none focus:ring-2 focus:ring-[#ff6f61] text-white placeholder-[#ff6f61]/50"
+          />
+          <button class="px-8 py-4 bg-[#ff6f61] text-[#1a000a] font-serif font-bold rounded-full hover:bg-[#ff8a7a] transition-all duration-300 transform hover:scale-105 shadow-lg">
+            Subscribe
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</Layout>
